@@ -1,6 +1,6 @@
 let myName: String = "alfaruqi"
 let yourName:string = "zahra"
-let absens:number = 123 //usually use "number" instead of "Number" and also other type
+let absens:number = 123 //usually use "number" instead of "Number" and also "String" use "String"
 let data:Array<any> = ["hehe"]
 let callMyName:Function = () => {
   console.log(myName)

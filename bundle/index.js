@@ -1,7 +1,7 @@
 "use strict";
 let myName = "alfaruqi";
 let yourName = "zahra";
-let absens = 123; //usually use "number" instead of "Number" and also other type
+let absens = 123; //usually use "number" instead of "Number" and also "String" use "String"
 let data = ["hehe"];
 let callMyName = () => {
     console.log(myName);
