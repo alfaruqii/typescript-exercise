@@ -12,10 +12,10 @@ let data = ["hehe"];
 let newData = ["haloo", 10];
 //function
 function callMe(x, y) {
-    let a = x;
-    let b = y;
-    let z = a + b;
-    console.log(z);
+    // let a = x
+    // let b = y
+    // let z:number = a + b
+    return `hasil nya adalah ${x + y}`;
 }
 let callMyName = () => {
     //if i return myName that i have type "String" not "string" it will have an error

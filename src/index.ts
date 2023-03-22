@@ -17,11 +17,11 @@ let data:Array<any> = ["hehe"]
 let newData:(string|number)[] = ["haloo",10]
 
 //function
-function callMe(x:number,y:number):void{
-  let a = x
-  let b = y
-  let z = a + b
-  console.log(z)
+function callMe(x:number,y:number):string{
+  // let a = x
+  // let b = y
+  // let z:number = a + b
+  return `hasil nya adalah ${x+y}`
 }
 let callMyName = () :string => {
   //if i return myName that i have type "String" not "string" it will have an error
@@ -31,7 +31,8 @@ let callMyName = () :string => {
 
 console.log(myName)
 console.log(callMyName())
-callMe(4,5)
+const result = callMe(4,5)
+console.log(result)
 
 console.log({temen1})
 console.log({absens})
