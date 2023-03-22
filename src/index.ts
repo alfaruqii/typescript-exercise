@@ -93,4 +93,4 @@ const laptopResult = CallSpec({
     typeDisplay:"1920x1080"
   }
 })
-console.log(laptopResult)
+console.log("your laptop spec : ",laptopResult)
