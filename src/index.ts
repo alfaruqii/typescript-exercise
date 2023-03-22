@@ -17,9 +17,9 @@ let data:Array<any> = ["hehe"]
 let newData:(string|number)[] = ["haloo",10]
 
 //function
-function callMe():void{
-  let a = 1
-  let b = 2
+function callMe(x:number,y:number):void{
+  let a = x
+  let b = y
   let z = a + b
   console.log(z)
 }
@@ -31,7 +31,7 @@ let callMyName = () :string => {
 
 console.log(myName)
 console.log(callMyName())
-callMe()
+callMe(4,5)
 
 console.log({temen1})
 console.log({absens})

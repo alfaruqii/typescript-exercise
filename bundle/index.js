@@ -11,9 +11,9 @@ let absens = 123; //usually use "number" instead of "Number" and also "String" u
 let data = ["hehe"];
 let newData = ["haloo", 10];
 //function
-function callMe() {
-    let a = 1;
-    let b = 2;
+function callMe(x, y) {
+    let a = x;
+    let b = y;
     let z = a + b;
     console.log(z);
 }
@@ -23,7 +23,7 @@ let callMyName = () => {
 };
 console.log(myName);
 console.log(callMyName());
-callMe();
+callMe(4, 5);
 console.log({ temen1 });
 console.log({ absens });
 console.log({ myName });
